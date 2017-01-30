@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassSettings docDetail="" docName="GameDB" generatePreventReentrantCode="true" docBrief="GameDB" sortAllProperties="true" className="GameDB" typeInheritsInfomation="inherits_QObject" inherits="QObject">
+    <TypeOrder/>
+    <PropertiesGroup writeFunctionEmitSignal="true" enabled="true" statementsInReadProperty="" writeFunctionIsInline="false" resetFunctionIsInline="false" statementsMiddleWriteProperty="" statementsAfterResetProperty="" statementsAfterWriteProperty="" readFunctionIsInline="true" statementsBeforeResetProperty="" name="primary" statementsBeforeWriteProperty=""/>
+</ClassSettings>

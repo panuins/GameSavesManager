@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SavesData</class>
+ <widget class="QDialog" name="SavesData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SavesEditor</string>
+  </property>
+  <property name="locale">
+   <locale language="C" country="AnyCountry"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_SavesData_Iterator">
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_First">
+       <property name="text">
+        <string>&lt;&lt;&amp;First</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Previous">
+       <property name="text">
+        <string>&lt;&amp;Previous</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_SavesData_Iterator">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Next">
+       <property name="text">
+        <string>&amp;Next&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Last">
+       <property name="text">
+        <string>&amp;Last&gt;&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_SavesData_Content">
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_SavesData_Branch"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPlainTextEdit" name="plainTextEdit_SavesData_SaveData">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_SavesData_CurrentGameNameValue">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_SavesData_Hash">
+       <property name="text">
+        <string>DataHash:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_SavesData_LastDateTimeValue">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_SavesData_CurrentGameName">
+       <property name="text">
+        <string>CurrentGame:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_SavesData_LastDateTime">
+       <property name="text">
+        <string>LastDateTime:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_SavesData_Date">
+       <property name="text">
+        <string>Date:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_SavesData_HashValue">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPlainTextEdit" name="plainTextEdit_SavesData_Memo"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_SavesData_SaveData">
+       <property name="text">
+        <string>SaveData:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_SavesData_Branch">
+       <property name="text">
+        <string>Branch:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lineEdit_SavesData_Date"/>
+     </item>
+     <item row="6" column="2">
+      <layout class="QVBoxLayout" name="verticalLayout_SavesData_SaveData">
+       <item>
+        <widget class="QPushButton" name="pushButton_SavesData_Lock">
+         <property name="text">
+          <string>Un&amp;lock</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SavesData_Import">
+         <property name="text">
+          <string>Import</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SavesData_Export">
+         <property name="text">
+          <string>Export</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SavesData_Restore">
+         <property name="text">
+          <string>Restore</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SavesData_Overwrite">
+         <property name="text">
+          <string>Overwrite</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_SavesData_Memo">
+       <property name="text">
+        <string>Memo:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_SavesData_Tag">
+       <property name="text">
+        <string>Tag:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_SavesData_Tag"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_SavesData_Bottom">
+     <item>
+      <spacer name="horizontalSpacer_SavesData_BottomLeft">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Commit">
+       <property name="text">
+        <string>&amp;Commit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Ok">
+       <property name="text">
+        <string>Ok</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_SavesData_Cancel">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_SavesData_BottomRight">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_SavesData_First</tabstop>
+  <tabstop>pushButton_SavesData_Previous</tabstop>
+  <tabstop>pushButton_SavesData_Next</tabstop>
+  <tabstop>pushButton_SavesData_Last</tabstop>
+  <tabstop>lineEdit_SavesData_Tag</tabstop>
+  <tabstop>lineEdit_SavesData_Branch</tabstop>
+  <tabstop>lineEdit_SavesData_Date</tabstop>
+  <tabstop>plainTextEdit_SavesData_SaveData</tabstop>
+  <tabstop>plainTextEdit_SavesData_Memo</tabstop>
+  <tabstop>pushButton_SavesData_Lock</tabstop>
+  <tabstop>pushButton_SavesData_Import</tabstop>
+  <tabstop>pushButton_SavesData_Export</tabstop>
+  <tabstop>pushButton_SavesData_Restore</tabstop>
+  <tabstop>pushButton_SavesData_Overwrite</tabstop>
+  <tabstop>pushButton_SavesData_Commit</tabstop>
+  <tabstop>pushButton_SavesData_Ok</tabstop>
+  <tabstop>pushButton_SavesData_Cancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
